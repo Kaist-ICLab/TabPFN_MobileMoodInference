@@ -1,0 +1,61 @@
+rq,setting,task,budget,mean_delta,geo_unit,geo_wilcoxon_p,geo_testable,repeat_wilcoxon_p,repeat_n_valid,interpretation
+RQ1,Continent-specific,2c,10,0.025098630250622644,continent,,False,0.001953125,10,geographic-unit test unavailable; repeat-level available
+RQ1,Continent-specific,2c,20,0.027550805076808977,continent,,False,0.00390625,10,geographic-unit test unavailable; repeat-level available
+RQ1,Continent-specific,2c,30,0.03603161438776325,continent,,False,0.001953125,10,geographic-unit test unavailable; repeat-level available
+RQ1,Continent-specific,2c,40,0.05089637036996571,continent,,False,0.001953125,10,geographic-unit test unavailable; repeat-level available
+RQ1,Continent-specific,2c,50,0.044346211808845,continent,,False,0.001953125,10,geographic-unit test unavailable; repeat-level available
+RQ1,Continent-specific,3c,10,-0.0034033698032782203,continent,,False,0.232421875,10,geographic-unit test unavailable; repeat-level available
+RQ1,Continent-specific,3c,20,-0.0022762692571714595,continent,,False,0.375,10,geographic-unit test unavailable; repeat-level available
+RQ1,Continent-specific,3c,30,-0.005808757216990791,continent,,False,0.322265625,10,geographic-unit test unavailable; repeat-level available
+RQ1,Continent-specific,3c,40,-0.0084091190025739,continent,,False,0.4921875,10,geographic-unit test unavailable; repeat-level available
+RQ1,Continent-specific,3c,50,-0.00431908034992845,continent,,False,0.556640625,10,geographic-unit test unavailable; repeat-level available
+RQ1,Country-Agnostic I,2c,10,0.022599728795694694,source-target pair,0.0008245937845128,True,0.001953125,10,significant under both
+RQ1,Country-Agnostic I,2c,20,0.02265345711221684,source-target pair,0.0005267702694256,True,0.009765625,10,significant under both
+RQ1,Country-Agnostic I,2c,30,0.027542555756150833,source-target pair,5.5871912804851576e-05,True,0.00390625,10,significant under both
+RQ1,Country-Agnostic I,2c,40,0.028850798179291336,source-target pair,4.050918021319364e-06,True,0.009765625,10,significant under both
+RQ1,Country-Agnostic I,2c,50,0.03062793358891051,source-target pair,1.7071429716801308e-07,True,0.001953125,10,significant under both
+RQ1,Country-Agnostic I,3c,10,0.026873795697492348,source-target pair,1.6591338272068006e-09,True,0.001953125,10,significant under both
+RQ1,Country-Agnostic I,3c,20,0.027651367684686477,source-target pair,9.013255639202579e-10,True,0.001953125,10,significant under both
+RQ1,Country-Agnostic I,3c,30,0.028702053638021613,source-target pair,2.1335307568119573e-09,True,0.001953125,10,significant under both
+RQ1,Country-Agnostic I,3c,40,0.027173210297060657,source-target pair,1.577441629594004e-09,True,0.001953125,10,significant under both
+RQ1,Country-Agnostic I,3c,50,0.026124055561492658,source-target pair,4.0716022282025135e-09,True,0.001953125,10,significant under both
+RQ1,Country-Agnostic II,2c,10,0.02212915571991294,held-out country,0.3125,True,0.064453125,10,neither significant
+RQ1,Country-Agnostic II,2c,20,0.02386740609154767,held-out country,0.4609375,True,0.048828125,10,repeat-level significant only
+RQ1,Country-Agnostic II,2c,30,0.019657280328494058,held-out country,0.25,True,0.064453125,10,neither significant
+RQ1,Country-Agnostic II,2c,40,0.02267105458482633,held-out country,0.1953125,True,0.01953125,10,repeat-level significant only
+RQ1,Country-Agnostic II,2c,50,0.0072593654367901495,held-out country,0.25,True,0.431640625,10,neither significant
+RQ1,Country-Agnostic II,3c,10,0.01000563033845675,held-out country,0.546875,True,0.193359375,10,neither significant
+RQ1,Country-Agnostic II,3c,20,-0.00230415283650153,held-out country,0.546875,True,0.845703125,10,neither significant
+RQ1,Country-Agnostic II,3c,30,0.002172611185750079,held-out country,0.7421875,True,0.921875,10,neither significant
+RQ1,Country-Agnostic II,3c,40,0.00141069219179589,held-out country,0.9453125,True,0.6953125,10,neither significant
+RQ1,Country-Agnostic II,3c,50,-0.006173731936063931,held-out country,0.7421875,True,0.556640625,10,neither significant
+RQ1,Country-specific,2c,10,-0.0008802859041142893,country,0.3828125,True,0.921875,10,neither significant
+RQ1,Country-specific,2c,20,0.02943049827274698,country,0.1953125,True,0.01953125,10,repeat-level significant only
+RQ1,Country-specific,2c,30,0.0359154050731134,country,0.0546875,True,0.001953125,10,repeat-level significant only
+RQ1,Country-specific,2c,40,0.028504684558297622,country,0.1953125,True,0.02734375,10,repeat-level significant only
+RQ1,Country-specific,2c,50,0.029955940756772215,country,0.1953125,True,0.01953125,10,repeat-level significant only
+RQ1,Country-specific,3c,10,0.024033886358173297,country,0.0234375,True,0.009765625,10,significant under both
+RQ1,Country-specific,3c,20,0.02918763641598519,country,0.0078125,True,0.00390625,10,significant under both
+RQ1,Country-specific,3c,30,0.02821582238612344,country,0.0078125,True,0.001953125,10,significant under both
+RQ1,Country-specific,3c,40,0.03338044903591038,country,0.0078125,True,0.001953125,10,significant under both
+RQ1,Country-specific,3c,50,0.03389450719552257,country,0.0078125,True,0.001953125,10,significant under both
+RQ1,Multi-country balanced,2c,10,0.0038184564714075797,pooled model,,False,1.0,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country balanced,2c,20,0.01116739206859692,pooled model,,False,0.193359375,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country balanced,2c,30,0.015080365404971407,pooled model,,False,0.322265625,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country balanced,2c,40,0.00975685071553621,pooled model,,False,0.556640625,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country balanced,2c,50,0.02109780125950792,pooled model,,False,0.02734375,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country balanced,3c,10,0.027140107625849556,pooled model,,False,0.013671875,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country balanced,3c,20,0.017044632310854003,pooled model,,False,0.02734375,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country balanced,3c,30,0.020792678415316252,pooled model,,False,0.005859375,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country balanced,3c,40,0.02035209780119418,pooled model,,False,0.00390625,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country balanced,3c,50,0.019801309374217403,pooled model,,False,0.01953125,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country natural,2c,10,0.015032630467737697,pooled model,,False,0.064453125,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country natural,2c,20,0.019803393609046177,pooled model,,False,0.005859375,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country natural,2c,30,0.024068713954816308,pooled model,,False,0.009765625,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country natural,2c,40,0.02761874338426794,pooled model,,False,0.001953125,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country natural,2c,50,0.02789170909286559,pooled model,,False,0.001953125,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country natural,3c,10,-0.008779189590714376,pooled model,,False,0.375,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country natural,3c,20,-0.013324508281524521,pooled model,,False,0.037109375,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country natural,3c,30,-0.01900472554192183,pooled model,,False,0.01953125,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country natural,3c,40,-0.02114973043936526,pooled model,,False,0.013671875,10,geographic-unit test unavailable; repeat-level available
+RQ1,Multi-country natural,3c,50,-0.0189746419820561,pooled model,,False,0.02734375,10,geographic-unit test unavailable; repeat-level available
